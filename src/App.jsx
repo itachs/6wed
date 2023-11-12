@@ -21,10 +21,10 @@ export default function App() {
       function handleButtonClick(){
         if(darkeButtan == "Darken"){
             setDarkeButton("Litten");
-            setDarkMode(false);
+            setDarkMode(true);
         }else{
             setDarkeButton("Darken");
-            setDarkMode(true);
+            setDarkMode(false);
         }
 
       };
