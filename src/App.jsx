@@ -12,7 +12,7 @@ export default function App() {
       const [displaySrc,setDisplaySrc] = useState("images/pic1.jpg");
       const [displayAlt,setDisplayAlt]=useState("Closeup of a human eye") ;
       const [darkeButtan,setDarkeButton]=useState("Darken");
-      const [darkMode,setDarkMode]=useState(true);
+      const [darkMode,setDarkMode]=useState(false);
       function clickSetDis(src,alt)  {
         setDisplaySrc(src);
         setDisplayAlt(alt);
